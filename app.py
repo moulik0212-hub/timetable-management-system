@@ -4,7 +4,7 @@ import sqlite3
 app = Flask(__name__)
 app.secret_key = "timetable_secret"
 
-DATABASE = r"C:\Users\Mouli\timetable.db"
+DATABASE = "timetable.db"
 
 
 def get_db():
